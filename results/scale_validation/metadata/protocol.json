@@ -1,0 +1,161 @@
+{
+  "profile": {
+    "name": "paper",
+    "ordinary_dims": [
+      50,
+      100,
+      200,
+      400
+    ],
+    "ordinary_p": [
+      0.3,
+      0.5,
+      0.8
+    ],
+    "ordinary_seeds": [
+      1101,
+      1102,
+      1103,
+      1104,
+      1105
+    ],
+    "exact_dims": [
+      20,
+      50
+    ],
+    "exact_p": [
+      0.3,
+      0.5,
+      0.8
+    ],
+    "quartic_eps": [
+      0.01,
+      0.001,
+      0.0001,
+      1e-05
+    ],
+    "quartic_seeds": [
+      2101,
+      2102,
+      2103,
+      2104,
+      2105
+    ],
+    "strict_eps": [
+      0.001,
+      1e-05
+    ],
+    "strict_seeds": [
+      3101,
+      3102,
+      3103,
+      3104,
+      3105
+    ],
+    "timing_repeats": 3,
+    "max_iter": 10000,
+    "ordinary_max_iter_p08": 50000,
+    "long_horizon": 1000000,
+    "rescaling_factors": [
+      1e-12,
+      1e-08,
+      0.0001,
+      1.0,
+      10000.0,
+      100000000.0,
+      1000000000000.0
+    ],
+    "correlations": [
+      0.8,
+      0.9,
+      0.95
+    ],
+    "data_nu": [
+      1e-08,
+      1e-06,
+      0.0001
+    ],
+    "data_seeds": [
+      260910,
+      260911,
+      260912,
+      260913,
+      260914,
+      260915,
+      260916,
+      260917,
+      260918,
+      260919,
+      260920,
+      260921,
+      260922,
+      260923,
+      260924,
+      260925,
+      260926,
+      260927,
+      260928,
+      260929
+    ]
+  },
+  "solver": {
+    "max_iter": 10000,
+    "stop_tol": 1e-11,
+    "step_fraction": 0.95,
+    "gamma_override": null,
+    "prox_tol": 1e-14,
+    "prox_max_iter": 150,
+    "residual_mode": "normalized",
+    "store_history": false,
+    "history_stride": 1,
+    "store_iterates": false
+  },
+  "four_v_fb": {
+    "solver": {
+      "max_iter": 10000,
+      "stop_tol": 1e-11,
+      "step_fraction": 0.95,
+      "gamma_override": null,
+      "prox_tol": 1e-14,
+      "prox_max_iter": 150,
+      "residual_mode": "normalized",
+      "store_history": false,
+      "history_stride": 1,
+      "store_iterates": false
+    },
+    "eligibility_tol": 0.0001,
+    "schedule": "powers_of_two",
+    "rho": 0.5,
+    "eta0_factor": 1.0,
+    "sigma_fraction": 0.5,
+    "eigvec_zero_tol": 1e-15,
+    "guard_mode": "homogeneous_max",
+    "guard_abs": 1e-15,
+    "guard_rel": 1e-13,
+    "stop_at_origin": true
+  },
+  "absolute_guard_control": {
+    "solver": {
+      "max_iter": 10000,
+      "stop_tol": 1e-11,
+      "step_fraction": 0.95,
+      "gamma_override": null,
+      "prox_tol": 1e-14,
+      "prox_max_iter": 150,
+      "residual_mode": "normalized",
+      "store_history": false,
+      "history_stride": 1,
+      "store_iterates": false
+    },
+    "eligibility_tol": 0.0001,
+    "schedule": "powers_of_two",
+    "rho": 0.5,
+    "eta0_factor": 1.0,
+    "sigma_fraction": 0.5,
+    "eigvec_zero_tol": 1e-15,
+    "guard_mode": "absolute_max",
+    "guard_abs": 1e-15,
+    "guard_rel": 1e-13,
+    "stop_at_origin": true
+  }
+}

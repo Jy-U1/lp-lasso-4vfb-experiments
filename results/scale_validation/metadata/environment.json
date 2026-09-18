@@ -1,0 +1,13 @@
+{
+  "run_id": "scale_validation_full",
+  "timestamp_utc": "2026-09-18T03:24:47.576645+00:00",
+  "profile": "paper",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.8",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "cpu_count": 9
+}

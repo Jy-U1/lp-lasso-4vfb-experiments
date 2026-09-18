@@ -1,0 +1,54 @@
+{
+  "source_run_id": "20260907T164315Z",
+  "ordinary_pairs": 60,
+  "ordinary_locmin": 60,
+  "ordinary_iteration_range": [
+    1228,
+    26767
+  ],
+  "ordinary_verification_range": [
+    11,
+    15
+  ],
+  "ordinary_paired_ratio_median": 1.0520785300542639,
+  "ordinary_paired_ratio_range": [
+    1.0308565641410956,
+    1.2047005140770777
+  ],
+  "ordinary_verification_fraction_median": 0.006856237831644,
+  "ordinary_verification_fraction_max": 0.0358109117558221,
+  "sparse_ablation_time": 0.1998848410000846,
+  "dense_ablation_time": 0.2996769759997733,
+  "ablation_time_reduction": 0.33299900556846307,
+  "exact_4v_successes": 12,
+  "exact_4v_max_final_residual": 4.790904047749073e-12,
+  "quartic_4v_successes": 120,
+  "quartic_4v_max_final_residual": 4.193172125311369e-12,
+  "strict_4v_corrections": 6,
+  "accepted_corrections_pooled": 138,
+  "min_drop_over_guard": 63173434.89659065,
+  "accepted_drop_range": [
+    4.2115623264393776e-05,
+    0.002339814173208
+  ],
+  "ordinary_log10_bound_range": [
+    25.41006894437469,
+    57.59906699016477
+  ],
+  "long_horizon_last_record": {
+    "iteration": 1000000.0,
+    "objective": 2.111111111111111,
+    "objective_change_double": 0.0,
+    "objective_change_high_precision": -5.085880738919365e-24,
+    "distance_to_saddle": 3.836607879617091e-06,
+    "step_norm": 0.0,
+    "fb_residual": 0.0,
+    "support_size": 20.0,
+    "relative_lambda_min": -2.113066666087349e-12,
+    "elapsed_seconds": 94.08338453800002,
+    "first_machine_fixed_iteration": 10.0,
+    "total_runtime_seconds": 94.08344318799982
+  },
+  "sensitivity_max_residual": 6.734585019229744e-13,
+  "sensitivity_max_distance": 0.0003976374943792
+}

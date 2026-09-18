@@ -1,0 +1,16 @@
+\begin{tabular}{llllllllll}
+\toprule
+regime & geometry & accepted & attempts & median\_actual\_drop & median\_required\_drop & median\_roundoff\_guard & median\_log10\_guard\_to\_theory & median\_eig\_time & median\_probe\_time \\
+\midrule
+exact & quartic & no & 30 & -0.0180256 & 2.61158e-15 & 3.83751e-13 & 3.39185 & 4.882e-05 & 9.37e-06 \\
+exact & quartic & yes & 6 & 0.000214114 & 2.61158e-15 & 3.87071e-13 & 3.39679 & 6.727e-05 & 1.001e-05 \\
+exact & strict & no & 30 & -0.0171936 & 2.61158e-15 & 3.82854e-13 & 3.39009 & 5.013e-05 & 9.52e-06 \\
+exact & strict & yes & 6 & 0.00219382 & 2.61158e-15 & 3.87071e-13 & 3.39679 & 8.5705e-05 & 1.024e-05 \\
+ordinary & -- & no & 732 & -3.40274e-05 & 9.53397e-32 & 8.95968e-13 & 18.7431 & 0.000222325 & 1.562e-05 \\
+perturbed\_saddle & quartic & no & 600 & -0.0180256 & 2.61149e-15 & 3.83751e-13 & 3.39186 & 5.355e-05 & 9.38e-06 \\
+perturbed\_saddle & quartic & yes & 120 & 0.000214177 & 2.61149e-15 & 3.87071e-13 & 3.3968 & 8.565e-05 & 1.0285e-05 \\
+perturbed\_saddle & strict & no & 50 & -0.0171936 & 5.21972e-15 & 2.06501e-13 & 1.59728 & 2.7935e-05 & 8.685e-06 \\
+perturbed\_saddle & strict & yes & 6 & 0.00219383 & 5.21972e-15 & 2.11111e-13 & 1.60686 & 5.352e-05 & 9.54e-06 \\
+schedule\_ablation & -- & no & 936 & -5.42855e-05 & 9.53397e-32 & 5.27708e-13 & 18.7431 & 7.675e-05 & 9.96e-06 \\
+\bottomrule
+\end{tabular}

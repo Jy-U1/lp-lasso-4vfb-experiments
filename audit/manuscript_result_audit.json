@@ -1,0 +1,365 @@
+{
+  "legacy_results": "/Users/yjy/Desktop/4V-FB/Experiment-submitted-version/lp-lasso-4vfb-experiments/results/reference_20260907T164315Z",
+  "scale_results": "/Users/yjy/Desktop/4V-FB/Experiment-submitted-version/lp-lasso-4vfb-experiments/results/scale_validation",
+  "passed": true,
+  "checks": [
+    {
+      "claim": "ordinary paired instances",
+      "passed": true,
+      "observed": 60,
+      "expected": 60
+    },
+    {
+      "claim": "ordinary 4V-FB NLM",
+      "passed": true,
+      "observed": 60,
+      "expected": 60
+    },
+    {
+      "claim": "ordinary accepted corrections",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "claim": "ordinary iteration range",
+      "passed": true,
+      "observed": [
+        1228,
+        26767
+      ],
+      "expected": [
+        1228,
+        26767
+      ]
+    },
+    {
+      "claim": "ordinary verification range",
+      "passed": true,
+      "observed": [
+        11,
+        15
+      ],
+      "expected": [
+        11,
+        15
+      ]
+    },
+    {
+      "claim": "ordinary paired endpoints identical",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "claim": "ordinary timing ratio rounded",
+      "passed": true,
+      "observed": [
+        1.0308565641410956,
+        1.0520785300542639,
+        1.2047005140770777
+      ],
+      "expected": [
+        1.031,
+        1.052,
+        1.205
+      ]
+    },
+    {
+      "claim": "ordinary verification fractions percent",
+      "passed": true,
+      "observed": [
+        0.6856237831644,
+        3.58109117558221
+      ],
+      "expected": [
+        0.6856237831644,
+        3.58109117558221
+      ]
+    },
+    {
+      "claim": "schedule ablation calls",
+      "passed": true,
+      "observed": [
+        11,
+        925
+      ],
+      "expected": [
+        11,
+        925
+      ]
+    },
+    {
+      "claim": "schedule ablation times",
+      "passed": true,
+      "observed": [
+        0.1998848410000846,
+        0.2996769759997733
+      ],
+      "expected": [
+        0.199885,
+        0.299677
+      ]
+    },
+    {
+      "claim": "exact FB NLM",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "claim": "exact 4V-FB NLM",
+      "passed": true,
+      "observed": 12,
+      "expected": 12
+    },
+    {
+      "claim": "exact corrections and verification calls",
+      "passed": true,
+      "observed": {
+        "corrections": [
+          1
+        ],
+        "calls": [
+          6
+        ]
+      },
+      "expected": {
+        "corrections": [
+          1
+        ],
+        "calls": [
+          6
+        ]
+      }
+    },
+    {
+      "claim": "exact maximum residual",
+      "passed": true,
+      "observed": 4.790904047749073e-12,
+      "expected": 4.790904047749073e-12
+    },
+    {
+      "claim": "exact relative eigenvalue range",
+      "passed": true,
+      "observed": [
+        0.5333011437095794,
+        0.606491945014569
+      ],
+      "expected": [
+        0.5333011437095794,
+        0.606491945014569
+      ]
+    },
+    {
+      "claim": "perturbed strict all methods 10/10",
+      "passed": true,
+      "observed": {
+        "4V-FB": {
+          "runs": 10,
+          "escaped": 10,
+          "nlm": 10
+        },
+        "DIRL1": {
+          "runs": 10,
+          "escaped": 10,
+          "nlm": 10
+        },
+        "DIRL2": {
+          "runs": 10,
+          "escaped": 10,
+          "nlm": 10
+        },
+        "FB": {
+          "runs": 10,
+          "escaped": 10,
+          "nlm": 10
+        }
+      },
+      "expected": "runs=escaped=NLM=10 for each method"
+    },
+    {
+      "claim": "perturbed quartic 4V-FB",
+      "passed": true,
+      "observed": {
+        "runs": 120,
+        "escaped": 120,
+        "nlm": 120,
+        "corrected": 120,
+        "capped": 0
+      },
+      "expected": {
+        "runs": 120,
+        "escaped": 120,
+        "nlm": 120,
+        "corrected": 120,
+        "capped": 0
+      }
+    },
+    {
+      "claim": "perturbed quartic baselines",
+      "passed": true,
+      "observed": {
+        "FB": {
+          "runs": 120,
+          "escaped": 0,
+          "nlm": 0,
+          "corrected": 0,
+          "capped": 18
+        },
+        "DIRL1": {
+          "runs": 120,
+          "escaped": 0,
+          "nlm": 0,
+          "corrected": 0,
+          "capped": 18
+        },
+        "DIRL2": {
+          "runs": 120,
+          "escaped": 0,
+          "nlm": 0,
+          "corrected": 0,
+          "capped": 18
+        }
+      },
+      "expected": "each: 120 runs, 0 escape/NLM/correction, 18 capped"
+    },
+    {
+      "claim": "long-horizon control",
+      "passed": true,
+      "observed": {
+        "iteration": 1000000,
+        "first_machine_fixed_iteration": 10,
+        "distance_to_saddle": 3.836607879617091e-06,
+        "fb_residual": 0.0,
+        "relative_lambda_min": -2.113066666087349e-12,
+        "objective_change_high_precision": -5.085880738919365e-24
+      },
+      "expected": "manuscript Table long-horizon values"
+    },
+    {
+      "claim": "scale-equivariant aggregate claims",
+      "passed": true,
+      "observed": {
+        "objective": [
+          42,
+          42,
+          42,
+          39,
+          56,
+          36,
+          0
+        ],
+        "correlated": [
+          45,
+          18,
+          45,
+          36,
+          2
+        ],
+        "perturbed": [
+          180,
+          47,
+          133,
+          180,
+          155
+        ],
+        "pilot": [
+          15,
+          0
+        ]
+      },
+      "expected": {
+        "objective": [
+          42,
+          42,
+          42,
+          39,
+          56,
+          36,
+          0
+        ],
+        "correlated": [
+          45,
+          18,
+          45,
+          36,
+          2
+        ],
+        "perturbed": [
+          180,
+          47,
+          133,
+          180,
+          155
+        ],
+        "pilot": [
+          15,
+          0
+        ]
+      }
+    },
+    {
+      "claim": "rescaling normalized objective spread",
+      "passed": true,
+      "observed": 2.6645352591003757e-15,
+      "expected": 2.6645352591003757e-15
+    },
+    {
+      "claim": "data perturbation table",
+      "passed": true,
+      "observed": [
+        {
+          "nu": 1e-08,
+          "fb_nlm": 0,
+          "four_v_nlm": 60,
+          "four_v_corrected": 60,
+          "four_v_iteration_min": 44,
+          "four_v_iteration_max": 1267
+        },
+        {
+          "nu": 1e-06,
+          "fb_nlm": 0,
+          "four_v_nlm": 60,
+          "four_v_corrected": 60,
+          "four_v_iteration_min": 44,
+          "four_v_iteration_max": 1267
+        },
+        {
+          "nu": 0.0001,
+          "fb_nlm": 47,
+          "four_v_nlm": 60,
+          "four_v_corrected": 35,
+          "four_v_iteration_min": 44,
+          "four_v_iteration_max": 7206
+        }
+      ],
+      "expected": [
+        {
+          "nu": 1e-08,
+          "fb_nlm": 0,
+          "four_v_nlm": 60,
+          "four_v_corrected": 60,
+          "four_v_iteration_min": 44,
+          "four_v_iteration_max": 1267
+        },
+        {
+          "nu": 1e-06,
+          "fb_nlm": 0,
+          "four_v_nlm": 60,
+          "four_v_corrected": 60,
+          "four_v_iteration_min": 44,
+          "four_v_iteration_max": 1267
+        },
+        {
+          "nu": 0.0001,
+          "fb_nlm": 47,
+          "four_v_nlm": 60,
+          "four_v_corrected": 35,
+          "four_v_iteration_min": 44,
+          "four_v_iteration_max": 7206
+        }
+      ]
+    }
+  ]
+}

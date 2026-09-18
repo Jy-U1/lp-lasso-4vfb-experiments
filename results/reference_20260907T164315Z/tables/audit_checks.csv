@@ -1,0 +1,11 @@
+check,passed,detail
+ordinary cost columns present,True,"accepted_corrections, eig_time, final_residual, probe_time, relative_lambda_min, runtime_algorithm, support_size, verification_calls"
+verification accounting,True,N_ver = N_scheduled + N_forced-final
+ordinary sparse-schedule logarithmic bound,True,N_scheduled <= 1+floor(log2 N_eligible) when N_eligible>0
+sparse schedule reduces verification calls,True,11 vs 925
+4V-FB corrects every exact constructed saddle,True,12/12
+quartic construction has negative D4,True,all tested p and n
+paired ordinary endpoints match,True,"iterations, final_objective, final_residual, support_size, relative_lambda_min"
+all methods escape strict-saddle controls,True,40/40
+DIRL parameter robustness grid complete,True,60/60 rows
+long-horizon checkpoint times are cumulative,True,elapsed_seconds is monotone across checkpoints

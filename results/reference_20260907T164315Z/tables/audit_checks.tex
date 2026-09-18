@@ -1,0 +1,16 @@
+\begin{tabular}{lll}
+\toprule
+check & passed & detail \\
+\midrule
+ordinary cost columns present & yes & accepted\_corrections, eig\_time, final\_residual, probe\_time, relative\_lambda\_min, runtime\_algorithm, support\_size, verification\_calls \\
+verification accounting & yes & N\_ver = N\_scheduled + N\_forced-final \\
+ordinary sparse-schedule logarithmic bound & yes & N\_scheduled <= 1+floor(log2 N\_eligible) when N\_eligible>0 \\
+sparse schedule reduces verification calls & yes & 11 vs 925 \\
+4V-FB corrects every exact constructed saddle & yes & 12/12 \\
+quartic construction has negative D4 & yes & all tested p and n \\
+paired ordinary endpoints match & yes & iterations, final\_objective, final\_residual, support\_size, relative\_lambda\_min \\
+all methods escape strict-saddle controls & yes & 40/40 \\
+DIRL parameter robustness grid complete & yes & 60/60 rows \\
+long-horizon checkpoint times are cumulative & yes & elapsed\_seconds is monotone across checkpoints \\
+\bottomrule
+\end{tabular}
